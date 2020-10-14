@@ -1,0 +1,48 @@
+{
+  "name": "ProfileShortlistingTask",
+  "description": "Email Automation task",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Google.Apis.Gmail.v1": "[1.43.0.1859]",
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "UiPath.Citrix.Activities": "[1.0.6]",
+    "UiPath.Excel.Activities": "[2.8.6]",
+    "UiPath.GSuite.Activities": "[1.6.0]",
+    "UiPath.Mail.Activities": "[1.8.6]",
+    "UiPath.PDF.Activities": "[3.3.0]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.2]",
+    "UiPath.Word.Activities": "[1.5.3-beta.1181319]",
+    "UiPathTeam.Gmail.Activities": "[1.0.6822.33137]",
+    "UiPathTeam.PDF.Extensions.Activities": "[2.4.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.3.0",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
